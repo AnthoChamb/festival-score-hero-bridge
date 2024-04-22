@@ -1,0 +1,14 @@
+{
+  "name": "festival-score-hero-bridge",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "dependencies": {
+    "@playwright/browser-chromium": "^1.43.1",
+    "playwright": "^1.43.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
