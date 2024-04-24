@@ -1,10 +1,9 @@
 import { chromium } from 'playwright'
+import { PlaywrightScoreHeroPage } from './PlaywrightScoreHeroPage';
 
 (async () => {
-  const browser = await chromium.launch();
-  const context = await browser.newContext();
-  const page = await context.newPage();
-
-  await context.close();
-  await browser.close();
+  await using browser = await chromium.launch();
+  await using context = await browser.newContext();
+  await using page = await context.newPage();
+  await using scoreHeroPage = new PlaywrightScoreHeroPage(page);
 })();
