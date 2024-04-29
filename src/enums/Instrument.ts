@@ -17,3 +17,16 @@ export const getInstrumentPrefix = (instrument: Instrument) => {
             return 'vocals';
     }
 }
+
+export const getInstrumentFromFestival = (instrument: number) => {
+    switch (instrument) {
+        case 0:
+            return Instrument.Lead;
+        case 1:
+            return Instrument.Bass;
+        case 2:
+            return Instrument.Vocals;
+        case 3:
+            return Instrument.Drums;
+    }
+}
