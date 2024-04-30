@@ -22,6 +22,7 @@ const writeSongsFile = async (festivalScoreProvider: SQLite3FestivalScoreProvide
   await using context = await browser.newContext();
   await using page = await context.newPage();
   await using scoreHeroPage = new PlaywrightScoreHeroPage(page);
+  await scoreHeroPage.login('', '');
 
   const database = new Database('leaderboard_data.db');
   database.pragma('journal_mode = WAL');
