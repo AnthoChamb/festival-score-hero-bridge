@@ -1,3 +1,3 @@
 export enum Platform {
-    Any = 1
+    Any = 18
 }
