@@ -1,8 +1,8 @@
 import { Database } from "better-sqlite3";
-import { Song } from "./interfaces/Song";
 import score_hero_songs from '../score_hero_songs.json';
-import { FestivalScoreProvider } from "./interfaces/FestivalScoreProvider";
 import { getInstrumentFromFestival } from "./enums/Instrument";
+import { FestivalScoreProvider } from "./interfaces/FestivalScoreProvider";
+import { Song } from "./interfaces/Song";
 
 interface HighScore {
     song_id: string;
@@ -55,7 +55,7 @@ export class SQLite3FestivalScoreProvider implements FestivalScoreProvider {
             for (const highScore of stmt.iterate()) {
                 const instrument = getInstrumentFromFestival(highScore.instrument);
                 if (instrument) {
-                    const difficulty = highScore.difficulty - 1;
+                    const difficulty = highScore.difficulty + 1;
                     let highScoreComment = '';
 
                     if (comment) {
