@@ -11,7 +11,7 @@ export class FestivalScoreHeroBridge {
     }
 
     uploadHighScores = async (comment?: string) => {
-        const highScores = await this.festivalScoreProvider.getHighScores();
+        const highScores = await this.festivalScoreProvider.getHighScores(comment);
 
         for (const highScore of highScores) {
             const maxScore = await this.scoreHeroPage.getMaxScore(highScore.songId, highScore.instrument, highScore.difficulty);
