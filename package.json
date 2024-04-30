@@ -1,7 +1,13 @@
 {
   "name": "festival-score-hero-bridge",
+  "description": "A Node.js command-line interface for uploading Fortnite Festival high scores to Score Hero",
+  "license": "MIT",
   "main": "dist/index.js",
   "bin": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnthoChamb/festival-score-hero-bridge"
+  },
   "scripts": {
     "build": "npx tsc"
   },
