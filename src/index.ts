@@ -7,12 +7,18 @@ import { FestivalScoreHeroBridge } from './FestivalScoreHeroBridge';
 import { PlaywrightScoreHeroPage } from './PlaywrightScoreHeroPage';
 import { SQLite3FestivalScoreProvider } from './SQLite3FestivalScoreProvider';
 
-const uploadHighScores = async (filename: string, username: string, password: string, comment?: string) => {
+interface UploadHighScoreOptions {
+  username: string;
+  password: string;
+  comment?: string;
+}
+
+const uploadHighScores = async (filename: string, options: UploadHighScoreOptions) => {
   await using browser = await chromium.launch();
   await using context = await browser.newContext();
   await using page = await context.newPage();
   await using scoreHeroPage = new PlaywrightScoreHeroPage(page);
-  await scoreHeroPage.login(username, password)
+  await scoreHeroPage.login(options.username, options.password)
   
   const database = new Database(filename);
   database.pragma('journal_mode = WAL');
@@ -20,7 +26,7 @@ const uploadHighScores = async (filename: string, username: string, password: st
   festivalScoreProvider.createSongsTable();
   
   const bridge = new FestivalScoreHeroBridge(festivalScoreProvider, scoreHeroPage);
-  await bridge.uploadHighScores(comment);
+  await bridge.uploadHighScores(options.comment);
 }
 
 const synchSongs = async (filename: string) => {
@@ -38,8 +44,8 @@ const synchSongs = async (filename: string) => {
   festivalScoreProvider.insertSongs(songs);
 }
 
-const writeSongsFile = async (source: string, destination: string) => {
-  const database = new Database(source);
+const writeSongsFile = async (filename: string, destination: string) => {
+  const database = new Database(filename);
   database.pragma('journal_mode = WAL');
   const festivalScoreProvider = new SQLite3FestivalScoreProvider(database);
   festivalScoreProvider.createSongsTable();
