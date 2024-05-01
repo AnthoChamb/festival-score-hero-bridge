@@ -1,5 +1,9 @@
 [
     {
+        "score_hero_song_id": 17614,
+        "festival_song_id": "applause"
+    },
+    {
         "score_hero_song_id": 17615,
         "festival_song_id": "gethimback"
     },
@@ -24,6 +28,10 @@
         "festival_song_id": "popular"
     },
     {
+        "score_hero_song_id": 17621,
+        "festival_song_id": "rainonme"
+    },
+    {
         "score_hero_song_id": 17622,
         "festival_song_id": "showthemwhoweare"
     },
@@ -32,8 +40,16 @@
         "festival_song_id": "singlesoon"
     },
     {
+        "score_hero_song_id": 17624,
+        "festival_song_id": "stupidlove"
+    },
+    {
         "score_hero_song_id": 17625,
         "festival_song_id": "welcometoparadise"
+    },
+    {
+        "score_hero_song_id": 17626,
+        "festival_song_id": "eightbitbeat"
     },
     {
         "score_hero_song_id": 17627,
@@ -62,6 +78,14 @@
     {
         "score_hero_song_id": 17633,
         "festival_song_id": "blindinglights"
+    },
+    {
+        "score_hero_song_id": 17634,
+        "festival_song_id": "bloodymary"
+    },
+    {
+        "score_hero_song_id": 17635,
+        "festival_song_id": "bornthisway"
     },
     {
         "score_hero_song_id": 17636,
@@ -144,6 +168,10 @@
         "festival_song_id": "intoyou"
     },
     {
+        "score_hero_song_id": 17656,
+        "festival_song_id": "justdance"
+    },
+    {
         "score_hero_song_id": 17657,
         "festival_song_id": "lessthan"
     },
@@ -178,6 +206,10 @@
     {
         "score_hero_song_id": 17665,
         "festival_song_id": "returnofthetiger"
+    },
+    {
+        "score_hero_song_id": 17666,
+        "festival_song_id": "ridewitme"
     },
     {
         "score_hero_song_id": 17667,
@@ -218,6 +250,10 @@
     {
         "score_hero_song_id": 17676,
         "festival_song_id": "takemybreath"
+    },
+    {
+        "score_hero_song_id": 17677,
+        "festival_song_id": "theedgeofglory"
     },
     {
         "score_hero_song_id": 17678,
@@ -266,5 +302,277 @@
     {
         "score_hero_song_id": 17689,
         "festival_song_id": "zombie"
+    },
+    {
+        "score_hero_song_id": 17690,
+        "festival_song_id": "bigenergy"
+    },
+    {
+        "score_hero_song_id": 17691,
+        "festival_song_id": "allofme"
+    },
+    {
+        "score_hero_song_id": 17692,
+        "festival_song_id": "allthesmallthings"
+    },
+    {
+        "score_hero_song_id": 17693,
+        "festival_song_id": "youdontknowwhatyouvegot"
+    },
+    {
+        "score_hero_song_id": 17694,
+        "festival_song_id": "whatsmyageagain"
+    },
+    {
+        "score_hero_song_id": 17695,
+        "festival_song_id": "closer"
+    },
+    {
+        "score_hero_song_id": 17696,
+        "festival_song_id": "ittakestwo"
+    },
+    {
+        "score_hero_song_id": 17697,
+        "festival_song_id": "metoo"
+    },
+    {
+        "score_hero_song_id": 17698,
+        "festival_song_id": "surroundsound"
+    },
+    {
+        "score_hero_song_id": 17699,
+        "festival_song_id": "downwiththesickness"
+    },
+    {
+        "score_hero_song_id": 17700,
+        "festival_song_id": "feelitstill"
+    },
+    {
+        "score_hero_song_id": 17701,
+        "festival_song_id": "highhopes"
+    },
+    {
+        "score_hero_song_id": 17702,
+        "festival_song_id": "miserybusiness"
+    },
+    {
+        "score_hero_song_id": 17703,
+        "festival_song_id": "shivers"
+    },
+    {
+        "score_hero_song_id": 17704,
+        "festival_song_id": "bestbuds"
+    },
+    {
+        "score_hero_song_id": 17705,
+        "festival_song_id": "blackholesun"
+    },
+    {
+        "score_hero_song_id": 17706,
+        "festival_song_id": "bloom"
+    },
+    {
+        "score_hero_song_id": 17707,
+        "festival_song_id": "breakingme"
+    },
+    {
+        "score_hero_song_id": 17708,
+        "festival_song_id": "feelgoodinc"
+    },
+    {
+        "score_hero_song_id": 17709,
+        "festival_song_id": "numb"
+    },
+    {
+        "score_hero_song_id": 17710,
+        "festival_song_id": "pokerface"
+    },
+    {
+        "score_hero_song_id": 17711,
+        "festival_song_id": "whatspoppin"
+    },
+    {
+        "score_hero_song_id": 17712,
+        "festival_song_id": "firework"
+    },
+    {
+        "score_hero_song_id": 17713,
+        "festival_song_id": "sowhat"
+    },
+    {
+        "score_hero_song_id": 17714,
+        "festival_song_id": "xgongiveittoya"
+    },
+    {
+        "score_hero_song_id": 17715,
+        "festival_song_id": "callmemaybe"
+    },
+    {
+        "score_hero_song_id": 17716,
+        "festival_song_id": "carryonwaywardson"
+    },
+    {
+        "score_hero_song_id": 17717,
+        "festival_song_id": "likeag6"
+    },
+    {
+        "score_hero_song_id": 17718,
+        "festival_song_id": "rosesimanbek"
+    },
+    {
+        "score_hero_song_id": 17719,
+        "festival_song_id": "sandstorm"
+    },
+    {
+        "score_hero_song_id": 17720,
+        "festival_song_id": "themiddle2"
+    },
+    {
+        "score_hero_song_id": 17721,
+        "festival_song_id": "yourlove9pm"
+    },
+    {
+        "score_hero_song_id": 17722,
+        "festival_song_id": "luciddreams"
+    },
+    {
+        "score_hero_song_id": 17723,
+        "festival_song_id": "astronautintheocean"
+    },
+    {
+        "score_hero_song_id": 17724,
+        "festival_song_id": "hysteria"
+    },
+    {
+        "score_hero_song_id": 17725,
+        "festival_song_id": "swimfree"
+    },
+    {
+        "score_hero_song_id": 17726,
+        "festival_song_id": "dontfearthereaper"
+    },
+    {
+        "score_hero_song_id": 17727,
+        "festival_song_id": "ithinkimokay"
+    },
+    {
+        "score_hero_song_id": 17728,
+        "festival_song_id": "comeandgo"
+    },
+    {
+        "score_hero_song_id": 17729,
+        "festival_song_id": "bustamove"
+    },
+    {
+        "score_hero_song_id": 17730,
+        "festival_song_id": "mood"
+    },
+    {
+        "score_hero_song_id": 17731,
+        "festival_song_id": "moveslikejagger"
+    },
+    {
+        "score_hero_song_id": 17732,
+        "festival_song_id": "scenario"
+    },
+    {
+        "score_hero_song_id": 17733,
+        "festival_song_id": "sucker"
+    },
+    {
+        "score_hero_song_id": 17734,
+        "festival_song_id": "superfreak"
+    },
+    {
+        "score_hero_song_id": 17735,
+        "festival_song_id": "transparentsoul"
+    },
+    {
+        "score_hero_song_id": 17736,
+        "festival_song_id": "themiddle"
+    },
+    {
+        "score_hero_song_id": 17737,
+        "festival_song_id": "youreallmine"
+    },
+    {
+        "score_hero_song_id": 17738,
+        "festival_song_id": "thehuntingground"
+    },
+    {
+        "score_hero_song_id": 17739,
+        "festival_song_id": "betrayedaardvark"
+    },
+    {
+        "score_hero_song_id": 17740,
+        "festival_song_id": "wolves"
+    },
+    {
+        "score_hero_song_id": 17741,
+        "festival_song_id": "kids"
+    },
+    {
+        "score_hero_song_id": 17742,
+        "festival_song_id": "dontyouworrychild"
+    },
+    {
+        "score_hero_song_id": 17743,
+        "festival_song_id": "everlong"
+    },
+    {
+        "score_hero_song_id": 17744,
+        "festival_song_id": "iwish"
+    },
+    {
+        "score_hero_song_id": 17745,
+        "festival_song_id": "boysaliarpt2"
+    },
+    {
+        "score_hero_song_id": 17746,
+        "festival_song_id": "thewaylifegoes"
+    },
+    {
+        "score_hero_song_id": 17747,
+        "festival_song_id": "iwannagetbetter"
+    },
+    {
+        "score_hero_song_id": 17748,
+        "festival_song_id": "song2"
+    },
+    {
+        "score_hero_song_id": 17749,
+        "festival_song_id": "ellabailasola"
+    },
+    {
+        "score_hero_song_id": 17750,
+        "festival_song_id": "whatigot"
+    },
+    {
+        "score_hero_song_id": 17751,
+        "festival_song_id": "makedamnsure"
+    },
+    {
+        "score_hero_song_id": 17752,
+        "festival_song_id": "paintthetownred"
+    },
+    {
+        "score_hero_song_id": 17753,
+        "festival_song_id": "migente"
+    },
+    {
+        "score_hero_song_id": 17754,
+        "festival_song_id": "xotourllif3"
+    },
+    {
+        "score_hero_song_id": 17755,
+        "festival_song_id": "santeria"
+    },
+    {
+        "score_hero_song_id": 17756,
+        "festival_song_id": "justagirl"
+    },
+    {
+        "score_hero_song_id": 17757,
+        "festival_song_id": "woman"
     }
 ]
